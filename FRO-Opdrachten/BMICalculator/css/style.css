@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: blue;
+    font-weight: 300;
+    color: white;
+    padding-left: 5em;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    padding: 1em 5em;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid blue;
+    outline: none;
+    width: 80%;
+}
+
+input:focus {
+    border-bottom: 3px solid blue;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    text-align: center;
+    background: blue;
+}

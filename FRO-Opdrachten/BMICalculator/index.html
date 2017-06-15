@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+    <div class="main">
+        <div class="content">
+            <label for="gewicht">Gewicht</label>
+            <input type="text" id="gewicht" onkeyup="checkgewicht(this)"><br/>
+            <br>
+            <label for="lengte">Lengte</label>
+            <input type="text" id="lengte" onkeyup="checklengte(this)"><br/>
+            <p>Resultaat:<span id="resultaat"></span></p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Gemaakt door Justin van der Kruit</p>
+</footer>
+<script src="js/ajax.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@
 <?php
 $q = $_GET['q'];
 
-$con = mysqli_connect('localhost', 'justi_nl_School', '7uevT3FHk3qX', 'justinvanderkruit_nl_School');
+$con = mysqli_connect('DB_SERVER', 'DB_NAME', 'DB_PASSWORD', 'DB_USER');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }
